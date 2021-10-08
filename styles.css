@@ -1,0 +1,73 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: rgb(238, 234, 229);
+    font-size: large;
+    letter-spacing: 0.25rem;
+}
+@media only screen and (min-width: 700px) {
+    fieldset{
+        padding: 5rem;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        border-image-width: 0px;
+        border: px;
+    }
+    body{
+        display:grid;
+        font-size: 1.5rem;
+        max-width:fit-content;
+        
+    }
+    fieldset{
+        border: 0px transparent;
+    }
+    .space{
+        padding: 0rem;
+        margin: 0rem;
+    }
+  }
+.space{
+    padding: 2rem;
+    margin: 1rem;
+}
+.btn{
+    padding: 0.5rem;
+    color:  rgb(235, 202, 163); 
+    background-color:rgb(15, 69, 116);
+    font-size: larger;
+    font-weight: 700;
+}
+.bg-img{
+    background-image: url("/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 6px solid transparent;
+    border-image: url("/daisy.jpeg") 30 round;
+    backdrop-filter: blur(3px);
+}
+
+fieldset{
+    filter: blur(0);
+}
+
+legend{
+    letter-spacing: 0.5rem;
+    font-weight: bolder;
+    font-size: medium;
+    font-variant:small-caps;
+}
+
+footer{
+    background-color: black;
+    font-size: 0.8rem;
+}

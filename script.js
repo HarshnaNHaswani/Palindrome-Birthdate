@@ -223,7 +223,10 @@ function reverseString(str) {
       } else {
         resultDiv.innerText = 'Yay! Your birthday is palindrome!';
       }
+    }else{
+      resultDiv.innerText = "Please give your birth date"
     }
+
   }
   
   showBtn.addEventListener('click', clickHandler);
